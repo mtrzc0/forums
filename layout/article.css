@@ -1,0 +1,372 @@
+.article-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article-main {
+    width: 800px;
+    margin: 0px 0 50px;
+}
+
+.article-main-content {
+    text-align: justify;
+    font-size: x-large;
+    padding: 2px;
+    margin: 10px 0 10px;
+    border-radius: 2px;
+}
+
+.article-post-main-element {
+    display: block;
+    border: 1px solid #222;
+    background-color: #222;
+    color: #dadada;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 0 10px;
+}
+
+.article-post-data {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 2px;
+    margin: 0 2px;
+}
+
+.article-post-user-img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 1px;
+    background-color: #4b4b4b;
+    border-radius: 10%;
+}
+
+.article-post-user-info {
+    margin: 0 10px;
+    width: 100%;
+}
+
+.article-post-user-login {
+    margin: 1px;
+    color: #5a5a5a;
+}
+
+.article-post-title {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 2px;
+}
+
+.article-post-cat {
+    margin: 0 10px;
+    padding: 0 2px;
+    background-color: #ac8400;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.article-post-header {
+    color: #5a5a5a;
+}
+
+.article-post-content {
+    position: relative;
+    height: auto;
+    font-size: 14px;
+    padding: 2px;
+    margin: 0 2px;
+    overflow: hidden;
+}
+
+.article-post-buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 2px;
+    margin: 2px 0;
+}
+
+.article-post-buttons a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 2px;
+    padding: 3px;
+    color: #808080;
+    background-color: #2e2e2e;
+    border-radius: 3px;
+    transition: color 0.25s ease, background-color 0.25s ease;
+}
+
+.article-post-buttons a:hover {
+    color: #cacaca;
+}
+
+.article-post-buttons a:visited {
+    color: #808080;
+    background-color: #2b2b2b;
+}
+
+.article-post-buttons a:visited:hover {
+    color: #cacaca;
+}
+
+.new-comment-main-element {
+    display: block;
+    border: 1px solid #222;
+    background-color: #222;
+    color: #dadada;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 0 10px;
+}
+
+.new-comment-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    padding: 2px;
+    margin: 0 2px;
+}
+
+.article-comment-data-container {
+    display: flex;
+    align-items: center;
+}
+
+.new-comment-user-img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 1px;
+    background-color: #4b4b4b;
+    border-radius: 10%;
+}
+
+.new-comment-user-info {
+    margin: 0 10px;
+    width: 100%;
+}
+
+.new-comment-user-login {
+    margin: 1px;
+    color: #5a5a5a;
+}
+
+.new-comment-title {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 2px;
+}
+
+.new-comment-cat {
+    margin: 0 10px;
+    padding: 0 2px;
+    background-color: #ac8400;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.new-comment-header {
+    color: #5a5a5a;
+}
+
+.new-comment-content {
+    position: relative;
+    height: auto;
+    font-size: 14px;
+    padding: 2px;
+    margin: 0 2px;
+    overflow: hidden;
+}
+
+.new-comment-buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 2px;
+    margin: 2px 0;
+}
+
+.new-comment-buttons a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 2px;
+    padding: 3px;
+    color: #808080;
+    background-color: #2e2e2e;
+    border-radius: 3px;
+    transition: color 0.25s ease, background-color 0.25s ease;
+}
+
+.nocomment-main-element.nohover{
+    display: block;
+    border: 1px solid #222;
+    background-color: #222;
+    color: #dadada;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 10px 0 10px;
+}
+
+.article-comment-main-element {
+    display: block;
+    border: 1px solid #222;
+    background-color: #222;
+    color: #dadada;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 10px 0 10px;
+}
+
+.article-comment-main-element:hover {
+    border: 1px solid #808080;
+}
+
+.nohover{
+    border: none;
+}
+
+.article-comment-main-element-link {
+    text-decoration: none;
+    color: #dadada;
+}
+
+.article-comment-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 2px;
+    margin: 0 2px;
+}
+
+.article-comment-user-img {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 1px;
+    background-color: #4b4b4b;
+    border-radius: 10%;
+}
+
+.article-comment-user-info {
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.article-comment-user-login {
+    margin: 1px 2px;
+    color: #858585;
+}
+
+.article-comment-header {
+    color: #5a5a5a;
+}
+
+.article-comment-content {
+    position: relative;
+    height: auto;
+    font-size: 14px;
+    padding: 2px;
+    margin: 0 2px;
+    overflow: hidden;
+}
+
+.article-comment-buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin: 2px 0;
+}
+
+.article-comment-buttons a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 2px;
+    padding: 3px;
+    color: #808080;
+    background-color: #2e2e2e;
+    border-radius: 3px;
+    transition: color 0.25s ease, background-color 0.25s ease;
+}
+
+.article-comment-buttons a:hover {
+    color: #cacaca;
+}
+
+.article-comment-buttons a:visited {
+    color: #808080;
+    background-color: #2b2b2b;
+}
+
+.article-comment-buttons a:visited:hover {
+    color: #cacaca;
+}
+
+.nocomment {
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #363636;
+}
+
+.article-post-edit {
+    text-align: center;
+    width: 80px;
+    display: inline-block;
+    color: #dbdbdb;
+    background-color: #383838;
+    padding: 2px;
+    margin: 1px;
+    border-radius: 3px;
+    transition: all .25s ease;
+}
+
+.article-post-edit a {
+    text-decoration: none;
+    color: #dbdbdb;
+}
+
+.article-post-edit:hover {
+    text-decoration: none;
+    background-color: #303030;
+}
+
+.article-post-edit a:visited {
+    text-decoration: none;
+    color: #dbdbdb;
+}
+
+.article-post-button-share {
+    cursor: pointer;
+}
+
+.article-comment-content {
+    position: relative;
+    height: 55px;
+    font-size: 14px;
+    padding: 2px;
+    margin: 0 2px;
+    overflow: hidden;
+}
+
+.article-comment-content::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: inset 0px -114px 27px -94px #222;
+    -moz-box-shadow: inset 0px -114px 27px -94px #222;
+    box-shadow: inset 0px -114px 27px -94px #222;
+    pointer-events: none;
+}

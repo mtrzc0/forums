@@ -1,0 +1,135 @@
+.form-main {
+    background-color: #252525;
+    width: 500px;
+}
+
+.form-h1 {
+    text-align: center;
+    color: #ddd;
+    width: 40%;
+    margin: 5px auto 40px auto;
+    border-bottom: 2px solid #a3a3a3;
+}
+
+.form-input {
+    font-size: 0.25in;
+    padding: 5px;
+    margin: 10px 0px;
+    width: 100%;
+    border: 2px solid #242424;
+    border-radius: 2px;
+    background-color: #202020;
+    color: #fff;
+    transition: border .25s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid #0592ca;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 50000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.form-input-error {
+    border: 2px solid #ff0000;
+}
+
+.form-rem-forg-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-checkbox {
+    display: inline-block;
+    font-size: .18in;
+    padding: 10px 0;
+}
+
+.checkbox-field {
+    transform: scale(1.5);
+}
+
+.form-validation-error {
+    color: red;
+    padding: 5px 0;
+    display: none;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+}
+
+.form-forgot-pass-link {
+    font-size: .18in;
+    color: #9b9b9b;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.form-forgot-pass-link:hover {
+    color: #9b9b9b;
+    text-decoration: underline;
+}
+
+.form-forgot-pass-link:visited {
+    color: #9b9b9b;
+}
+
+.form-forgot-pass-link:visited:hover {
+    color: #c7c7c7;
+    text-decoration: underline;
+}
+
+.form-submit {
+    font-size: 0.25in;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    color: #fff;
+    background-color: #4e4e4e;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.form-submit:hover {
+    background-color: #0592ca;
+    cursor: pointer;
+}
+
+.form-submit:focus {
+    outline: none;
+}
+
+.under-form {
+    color: #aaa;
+    padding: 20px 0;
+    margin: auto;
+    width: 500px;
+    font-size: small;
+    border-top: 1px solid #7a7a7a;
+}
+
+.under-form-link {
+    color: #c9c9c9;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.under-form-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.under-form-link:visited {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+.under-form-link:visited:hover {
+    color: #fff;
+    text-decoration: none;
+}

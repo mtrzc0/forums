@@ -1,0 +1,150 @@
+.new-comment-main-element {
+    display: block;
+    border: 1px solid #222;
+    background-color: #222;
+    color: #dadada;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px 0 10px;
+}
+
+.new-comment-cat {
+    margin: 0 10px;
+    padding: 0 2px;
+    background-color: #ac8400;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.new-comment-data {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 2px;
+    margin: 0 2px;
+}
+
+.new-comment-user-img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 1px;
+    background-color: #4b4b4b;
+    border-radius: 10%;
+}
+
+.new-comment-user-info {
+    margin: 0 10px;
+}
+
+.new-comment-user-login {
+    font-size: 18px;
+    margin: 1px;
+    color: #5a5a5a;
+}
+
+.new-comment-header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.new-comment-title {
+    padding: 5px;
+    margin-right: 2px;
+    color: #fff;
+    outline: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    background-color: #2c2c2c;
+    border: 2px solid #222;
+    border-radius: 3px;
+    transition: border 0.25s ease;
+}
+
+.new-comment-select {
+    color: #757575;
+    font-size: 20px;
+    background-color: #2c2c2c;
+    border: 2px solid #222;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+}
+
+.new-comment-select-option {
+    font-size: 20px;
+    color: #fff;
+}
+
+.new-comment-content {
+    position: relative;
+    height: auto;
+    padding: 2px;
+    margin: 2px;
+    overflow: hidden;
+}
+
+.new-comment-text {
+    padding: 5px;
+    color: #fff;
+    outline: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    background-color: #2c2c2c;
+    border: 2px solid #222;
+    border-radius: 3px;
+    transition: border 0.25s ease;
+    resize: none;
+}
+
+.new-comment-title:focus,
+.new-comment-text:focus {
+    border: 2px solid #0592ca;
+}
+
+.new-comment-button {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+    margin: 2px 0;
+}
+
+.new-comment-submit {
+    outline: none;
+    font-size: 0.17in;
+    padding: 8px;
+    background-color: #0592ca;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+.new-comment-submit:hover {
+    background-color: #047cac;
+}
+
+.delete-post-submit {
+    outline: none;
+    font-size: 0.17in;
+    padding: 8px;
+    margin: 0 5px;
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.25s ease;
+}
+
+.delete-post-submit:hover {
+    background-color: #303030;
+}

@@ -1,0 +1,113 @@
+.form-main {
+    background-color: #252525;
+    width: 500px;
+}
+
+.form-h1 {
+    text-align: center;
+    color: #ddd;
+    width: 50%;
+    margin: 5px auto 40px auto;
+    border-bottom: 2px solid #a3a3a3;
+}
+
+.form-input {
+    font-size: 0.25in;
+    padding: 5px;
+    margin: 10px 0px;
+    width: 100%;
+    border: 2px solid #242424;
+    border-radius: 2px;
+    background-color: #202020;
+    color: #fff;
+    transition: border .25s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 2px solid #0592ca;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 50000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.form-input-error {
+    border: 2px solid #ff0000;
+}
+
+.form-validation-error {
+    color: red;
+    line-height: 20px;
+    padding: 2px 0;
+    font-size: 15px;
+}
+
+.form-submit {
+    font-size: 0.25in;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    color: #fff;
+    background-color: #4e4e4e;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.form-submit:hover {
+    background-color: #0592ca;
+    cursor: pointer;
+}
+
+.form-submit:focus {
+    outline: none;
+}
+
+.pass-req {
+    line-height: 20px;
+    padding: 2px 0;
+    font-size: 15px;
+    color: #4b4b4b;
+}
+
+.form-recaptcha-field {
+    margin: 20px 0 10px;
+}
+
+.g-recaptcha:hover {
+    cursor: pointer;
+}
+
+.under-form {
+    color: #aaa;
+    padding: 20px 0;
+    margin: auto;
+    width: 500px;
+    font-size: small;
+    border-top: 1px solid #7a7a7a;
+}
+
+.under-form-link {
+    color: #dbdbdb;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.under-form-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.under-form-link:visited {
+    color: #dbdbdb;
+    text-decoration: none;
+}
+
+.under-form-link:visited:hover {
+    color: #fff;
+    text-decoration: none;
+}
